@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: black;
+    color: white;
+
+}
+
+header h1{
+    padding: 20px 20px 0px 20px;
+    margin: 0px;
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    font-size: calc(1em + 2.3vw);
+}
+
+header p{
+    text-align: center;
+    margin: 0px;
+    padding: 10px 20px 30px 20px;
+    max-width: 200px;
+    margin: auto;
+}
+
+main p{
+    font-size: calc(0.8em + 1vw);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+footer p{
+    margin: 0px;
+    padding: 7px;
+    font-size: 1.1em;
+}
+
+footer a{
+    color: yellow;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
